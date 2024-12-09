@@ -14,7 +14,7 @@ const Home = () => {
             <div className='flex justify-center flex-col lg:flex-row h-[100vh] items-center lg:gap-10  xl:gap-28 2xl:gap-64 '>
                 {/* left  */}
                    {/* right  */} 
-                   <div className=' block lg:hidden mt-20 pic'>
+                   <div className=' block xs:hidden sm4:block lg:hidden mt-16 pic'>
                           
                           <div className='relative mt-28 '>
                           <img src={tag} alt="" className='absolute -left-36 top-3 hidden ' />
@@ -26,7 +26,7 @@ const Home = () => {
                 
 
                 </div>
-                <div className=' mt-10 lg:-mt-28'>
+                <div className=' mt-10  mx-10 lg:-mt-28'>
                     <h1 className=' text-4xl md:text-3xl lg:text-5xl xl:text-6xl font-semibold'>Dive into Delights <br /> <p className='mt-5'>Of Delectable <span className='text-[#39DB4A]'>Food</span></p></h1>
 
                     <p className='mt-12   text-2xl text-gray-500 '>
