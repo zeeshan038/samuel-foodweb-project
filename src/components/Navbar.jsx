@@ -89,12 +89,12 @@ const Navbar = () => {
               </Link>
             </li>
 
-            <div className="border md:hidden mt-3 flex justify-center gap-3 items-center rounded-full bg-[#39DB4A] p-2 md:p-3 hover:bg-[#97eda0] text-white font-bold text-[20px] cursor-pointer px-4 md:px-8">
-              <Link to="/contact" className="flex items-center gap-3" onClick={closeMenu}>
+         
+              <Link to="/contact"  className="border md:hidden mt-3 flex justify-center gap-3 items-center rounded-full bg-[#39DB4A] p-2 md:p-3 hover:bg-[#97eda0] text-white font-bold text-[20px] cursor-pointer px-4 md:px-8" onClick={closeMenu}>
                 <img src={call} alt="call" className="h-6" />
                 <h1>Contact</h1>
               </Link>
-            </div>
+           
           </ul>
         </div>
 
