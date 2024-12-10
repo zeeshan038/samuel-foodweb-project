@@ -16,22 +16,22 @@ const PopularCategories = () => {
             </div>
             <div className='flex gap-10 items-center mt-10 flex-wrap justify-center'>
                 {/* box 1  */}
-                <div className='border bg-white shadow-lg rounded-xl p-7 flex flex-col justify-center items-center px-11 '>
+                <div className='border bg-white  w-full md:w-52 mx-8 md:mx-0 shadow-lg rounded-xl p-7 flex flex-col justify-center items-center px-11 '>
                     <img src={burgur} alt="" className='' />
                     <p className='mt-2 font-bold'>Main Dish</p>
                 </div>
                 {/* box 2  */}
-                <div className='border bg-white shadow-lg rounded-xl p-11 px-12 flex flex-col justify-center items-center '>
+                <div className='border bg-white shadow-lg w-full md:w-52 mx-8 md:mx-0  rounded-xl p-11 px-12 flex flex-col justify-center items-center '>
                     <img src={sandWich} alt="" className='' />
                     <p className='mt-2 font-bold'>Break Fast</p>
                 </div>
                 {/* box 3  */}
-                <div className='border bg-white shadow-lg rounded-xl p-8 px-12 flex flex-col justify-center items-center '>
+                <div className='border bg-white shadow-lg w-full md:w-52 mx-8 md:mx-0  rounded-xl p-8 px-12 flex flex-col justify-center items-center '>
                     <img src={desert} alt="" className='' />
                     <p className='mt-2 font-bold'>Desert</p>
                 </div>
                 {/* box 4  */}
-                <div className='border bg-white shadow-lg rounded-xl p-9 px-16  flex flex-col justify-center items-center '>
+                <div className='border bg-white shadow-lg w-full md:w-52 mx-8 md:mx-0  rounded-xl p-9 px-16  flex flex-col justify-center items-center '>
                     <img src={drink} alt="" className='h-24' />
                     <p className='mt-2 font-bold'>Drinks</p>
                 </div>

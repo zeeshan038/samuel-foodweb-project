@@ -8,15 +8,18 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="shadow-sm relative mt-2 h-16 md:h-20 ">
+    <nav className="shadow-sm relative mt-5 md:mt-3 h-20 md:h-20 ">
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
         <div className="text-2xl font-bold ">
           <Link to="/" className="relative">
+          <h1 className="absolute -top-6 right-5 text-xl text-gray-700 font-bold  tracking-wide bg-gradient-to-r from-gray-600 to-gray-600 text-transparent bg-clip-text drop-shadow-md">
+  Since 2011
+</h1>
             <span className="bg-[#39DB4A] text-white p-1 px-2 rounded-md font-sans">
               H
             </span>
             exham Thyme
-            <p className="font-semibold text-[#27b535] text-[16px] absolute md:top-6 top-4 right-2">The Tasty House</p>
+            <p className="font-semibold text-[#27b535] mt-1 md:mt-0 text-[16px] absolute md:top-6 top-4 right-2">The Tasty House</p>
           </Link>
         </div>
 

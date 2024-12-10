@@ -32,6 +32,9 @@ const Home = () => {
 
                 </div>
                 <div className=' mt-10  mx-10 lg:-mt-28'>
+                <h1 className=" text-3xl text-gray-700 font-bold  tracking-wide bg-gradient-to-r from-green-500 to-green-600 text-transparent bg-clip-text drop-shadow-md">
+  Since 2011
+</h1>
                     <h1 className=' text-4xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-semibold'>Dive into Delights <br /> <p className='mt-5'>Of Delectable <span className='text-[#39DB4A]'>Food</span></p></h1>
 
                     <p className='mt-12   text-2xl lg:text-xl text-gray-500 '>
