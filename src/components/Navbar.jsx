@@ -12,9 +12,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
         <div className="text-2xl font-bold ">
           <Link to="/" className="relative">
-          <h1 className="absolute -top-6 right-5 text-xl text-gray-700 font-bold  tracking-wide bg-gradient-to-r from-gray-600 to-gray-600 text-transparent bg-clip-text drop-shadow-md">
-  Since 2011
-</h1>
+       
             <span className="bg-[#39DB4A] text-white p-1 px-2 rounded-md font-sans">
               H
             </span>
@@ -70,7 +68,7 @@ const Navbar = () => {
             </li>
             <li className="px-4 py-2">
               <Link
-                to="/menu"
+                to="/opening"
                 className="hover:text-[#39DB4A] transition-colors duration-300"
               >
                 Opening hours
@@ -78,12 +76,13 @@ const Navbar = () => {
             </li>
             <li className="px-4 py-2">
               <Link
-                to="/blogs"
+                to="/about"
                 className="hover:text-[#39DB4A] transition-colors duration-300"
               >
                 About Us
               </Link>
             </li>
+           
            
             <div className="border  md:hidden mt-3  flex justify-center gap-3 items-center rounded-full bg-[#39DB4A]  p-2 md:p-3 hover:bg-[#97eda0] text-white font-bold text-[20px] cursor-pointer px-4 md:px-8">
           <img src={call} alt="call" className="h-6" />
@@ -93,9 +92,11 @@ const Navbar = () => {
         </div>
 
         {/* Contact Button */}
-        <div className="border hidden md:flex justify-center gap-3 items-center rounded-full bg-[#39DB4A]  p-2 md:p-3 hover:bg-[#97eda0] text-white font-bold text-[20px] cursor-pointer px-4 md:px-8">
+        <div >
+          <Link to={'/contact' }  className="border hidden md:flex justify-center gap-3 items-center rounded-full bg-[#39DB4A]  p-2 md:p-3 hover:bg-[#97eda0] text-white font-bold text-[20px] cursor-pointer px-4 md:px-8">
           <img src={call} alt="call" className="h-6" />
           <h1>Contact</h1>
+          </Link>
         </div>
            {/* Hamburger Menu Button */}
            <button

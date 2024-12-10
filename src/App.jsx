@@ -6,6 +6,10 @@ import Navbar from './components/Navbar'
 import Home from './Pages/Home'
 import Footer from './components/Footer'
 import { Toaster } from 'react-hot-toast'
+import MenuPricing from './Pages/MenuPricing'
+import OpeningHours from './Pages/OpeningHours'
+import AboutUs from './Pages/AboutUs'
+import Contact from './Pages/Contact'
 
 function App() {
 
@@ -16,7 +20,10 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/footer' element={<Footer />} />
+          <Route path='/menu' element={<MenuPricing />} />
+          <Route path='/opening' element ={<OpeningHours/>}/>
+          <Route path='/about' element ={<AboutUs/>}/>
+          <Route path='/contact' element ={<Contact/>}/>
 
         </Routes>
         <Toaster />

@@ -16,7 +16,7 @@ const PopularCategories = () => {
             </div>
             <div className='flex gap-10 items-center mt-10 flex-wrap justify-center'>
                 {/* box 1  */}
-                <div className='border bg-white  w-full md:w-52 mx-8 md:mx-0 shadow-lg rounded-xl p-7 flex flex-col justify-center items-center px-11 '>
+                <div className='border bg-white  w-full md:w-56 mx-8 md:mx-0 shadow-lg rounded-xl p-7 flex flex-col justify-center items-center px-11 '>
                     <img src={burgur} alt="" className='' />
                     <p className='mt-2 font-bold'>Main Dish</p>
                 </div>
