@@ -1,9 +1,8 @@
 import React from 'react';
-import Footer from '../components/Footer';
 
 const AboutUs = () => {
   return (
-    <div className="flex flex-col items-center justify-center h-[80vh] bg-gradient-to-br from-gray-50 via-white to-gray-100 text-gray-800">
+    <div className="flex flex-col items-center justify-center h-[80vh] mt-16 md:mt-0 bg-gradient-to-br from-gray-50 via-white to-gray-100 text-gray-800">
       <div className="w-full max-w-4xl p-8 md:p-12 text-center bg-white  rounded-2xl">
         <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
           About Us
