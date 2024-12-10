@@ -5,6 +5,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Home from './Pages/Home'
 import Footer from './components/Footer'
+import { Toaster } from 'react-hot-toast'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
           <Route path='/footer' element={<Footer />} />
 
         </Routes>
+        <Toaster />
       </BrowserRouter>
     </div>
   )

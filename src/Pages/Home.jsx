@@ -7,11 +7,17 @@ import rectangle from '../assets/rectangle.png'
 import food1 from '../assets/food-1-hero.png'
 import stars from '../assets/stars.png'
 import tag from '../assets/spicytag.png'
+import PopularCategories from './PopularCategories'
+import Service from './Service'
+import SpecialDish from './SpecialDish'
+import Contact from './Contact'
+import Location from './Location'
+import Footer from '../components/Footer'
 
 
 const Home = () => {
     return (
-        <div>
+        <div className='flex flex-col '>
 
             <div className='flex justify-center flex-col lg:flex-row h-[100vh] items-center lg:gap-28  xl:gap-40 2xl:gap-64 '>
                 {/* left  */}
@@ -61,6 +67,14 @@ const Home = () => {
 
                 </div>
             </div>
+
+
+            <PopularCategories/>
+            <SpecialDish/>
+            <Service/>
+            <Contact/>
+           
+ <Footer/>       
         </div>
     )
 }
