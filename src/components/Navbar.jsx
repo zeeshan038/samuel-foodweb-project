@@ -14,12 +14,14 @@ const Navbar = () => {
     <nav className="shadow-sm relative mt-5 md:mt-3 h-20 md:h-20">
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
         <div className="text-2xl font-bold">
-          <Link to="/" className="relative flex " onClick={closeMenu} >
+          <Link to="/" className="relative flex" onClick={closeMenu} >
               <img src={logo} alt="" className="h-20" />
-              Hexham Thyme
+             <p className="hidden lg:block">
+             Hexham Thyme
             <p className="font-semibold text-[#27b535] mt-1 md:mt-0 text-[16px] absolute md:top-6 top-4 right-2">
               The Tasty House
             </p>
+             </p>
           </Link>
         </div>
 
