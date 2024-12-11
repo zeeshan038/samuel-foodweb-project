@@ -10,6 +10,7 @@ import tag from '../assets/spicytag.png'
 import PopularCategories from './PopularCategories'
 import Service from './Service'
 import SpecialDish from './SpecialDish'
+
 import Contact from './Contact'
 import Location from './Location'
 import Footer from '../components/Footer'
