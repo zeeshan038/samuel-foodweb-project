@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 // Images 
 import call from "../assets/fi-rr-phone-call.png";
-
+import logo from "../assets/logo.png"
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -14,11 +14,9 @@ const Navbar = () => {
     <nav className="shadow-sm relative mt-5 md:mt-3 h-20 md:h-20">
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
         <div className="text-2xl font-bold">
-          <Link to="/" className="relative" onClick={closeMenu}>
-            <span className="bg-[#39DB4A] text-white p-1 px-2 rounded-md font-sans">
-              H
-            </span>
-            exham Thyme
+          <Link to="/" className="relative flex " onClick={closeMenu} >
+              <img src={logo} alt="" className="h-20" />
+              Hexham Thyme
             <p className="font-semibold text-[#27b535] mt-1 md:mt-0 text-[16px] absolute md:top-6 top-4 right-2">
               The Tasty House
             </p>
