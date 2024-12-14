@@ -5,6 +5,7 @@ import vegSalad from '../assets/VegetableSalad.png'
 import eggSalad from '../assets/EggSalad.png'
 import salad from '../assets/salad.png'
 import stars from '../assets/star.png'
+
 const SpecialDish = () => {
   return (
     <div className='mx-auto  mt-28'>

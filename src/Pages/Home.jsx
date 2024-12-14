@@ -14,6 +14,7 @@ import SpecialDish from './SpecialDish'
 import Contact from './Contact'
 import Location from './Location'
 import Footer from '../components/Footer'
+import { Link } from 'react-router-dom'
 
 
 const Home = () => {
@@ -41,7 +42,7 @@ const Home = () => {
                     <p className='mt-12   text-2xl lg:text-xl text-gray-500 '>
                         Where Each Plate Weaves a Story of Culinary <br /> <p className='mt-2'>Mastery and Passionate Craftsmanship</p></p>
                     <div className='flex gap-10 items-center'>
-                        <button className='mt-16 border p-4 px-10 rounded-full bg-[#39DB4A] text-white font-bold'>Order now </button>
+         <Link to={'/contact'}>               <button className='mt-16 border p-4 px-10 rounded-full bg-[#39DB4A] text-white font-bold'>Order now </button></Link>
 
                     </div>
                 </div>

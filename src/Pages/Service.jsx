@@ -181,14 +181,14 @@ const Service = () => {
                       <div className='border p-7  flex  w-full md:w-56 mx-8 md:mx-0  flex-col justify-around items-center bg-white shadow-lg rounded-2xl'>
                            <img src={kidsArea} alt="" className='h-28'/>
                         <div className='flex flex-col items-center justify-centers'>
-                        <h1 className=' font-bold'>⁠⁠Kids menu or play <br /> area</h1>
+                        <h1 className=' font-bold'>⁠⁠Kids menu </h1>
                         
                         </div>
                       </div>
                       <div className='border p-7  flex  w-full md:w-56 mx-8 md:mx-0  flex-col justify-around items-center bg-white shadow-lg rounded-2xl'>
                            <img src={happyHour} alt="" className='h-28'/>
                         <div className='flex flex-col items-center justify-centers'>
-                        <h1 className=' font-bold'>⁠⁠⁠Happy hour or <br /> special deals</h1>
+                        <h1 className=' font-bold'>⁠⁠⁠Happy hour & <br /> special deals</h1>
                         
                         </div>
                       </div>
