@@ -15,6 +15,7 @@ import Contact from './Contact'
 import Location from './Location'
 import Footer from '../components/Footer'
 import { Link } from 'react-router-dom'
+import Testimonials from './Testimonials'
 
 
 const Home = () => {
@@ -77,6 +78,7 @@ const Home = () => {
             <PopularCategories />
             <SpecialDish />
             <Service />
+            <Testimonials/>
             <Contact />
 
             <Footer />
